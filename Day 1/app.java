@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class app{
+    public static void main(String[] args) {
+        int i = 4;
+        double d = 4.0;
+        String s = "HackerRank ";
+		
+        Scanner scan = new Scanner(System.in);
+    
+        int myInt = scan.nextInt();
+        double myDoub = scan.nextDouble();
+        scan.nextLine();
+        String myStr = scan.nextLine();
+        
+        System.out.println(i + myInt);
+        System.out.println(d + myDoub);
+        System.out.println(s + myStr);
+
+        scan.close();
+    }
+}
