@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+//Day 1 = Data types and taking input from user and then doing concatenationa and simple arthematic operationa and displaying the operation
 public class app{
     public static void main(String[] args) {
         int i = 4;
