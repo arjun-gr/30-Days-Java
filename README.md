@@ -1,2 +1,2 @@
-# 30-days-Java
-30 days java by HackerRank
+# 30-days-of-Code
+30 days of code by HackerRank
