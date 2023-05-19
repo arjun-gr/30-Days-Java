@@ -5,7 +5,7 @@ public class Solution {
         Scanner sc = new Scanner(System.in);
         int usrInp = sc.nextInt();
 
-        // converting usrInp to binary
+        // converting usrInp to binary.
         String binStr = Integer.toBinaryString(usrInp);
 
         //
