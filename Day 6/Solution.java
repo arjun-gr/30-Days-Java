@@ -11,12 +11,13 @@ public class Solution {
             String S = sc.nextLine();
             evenOddChars(S);
         }
+        sc.close();
     }
 
     public static void evenOddChars(String S) {
         StringBuilder even = new StringBuilder();
         StringBuilder odd = new StringBuilder();
-
+        
         for (int i = 0; i < S.length(); i++) {
             if (i % 2 == 0 || i == 0) {
                 even.append(S.charAt(i));
